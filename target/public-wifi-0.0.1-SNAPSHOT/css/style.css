@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+li {
+	list-style-type: none;
+	float: left;
+	border-right: 2px solid;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	padding: 10px;
+	padding-top: 0;
+	/* 구분선 크기를 글자와 맞추기 */
+	padding-bottom: 0;
+	/* 구분선 크기를 글자와 맞추기 */
+}
+
+#input {
+	margin-top: 20px;
+}
